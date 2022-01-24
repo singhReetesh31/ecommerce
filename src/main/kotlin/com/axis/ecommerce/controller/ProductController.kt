@@ -51,10 +51,10 @@ class ProductController {
     private val bucketName: String? = null
 
     //@Value("\${amazon.aws.access-key}")
-    private val accessKey: String="AKIASXLO2SPYT4OSK7VX"
+    private val accessKey: String=""
 
    // @Value("\${amazon.aws.secret-key}")
-    private val secretKey: String= "ts0B7mGqbOHMTDJUs0UZbn4ODDVnIfQhffKXoLTD"
+    private val secretKey: String= ""
     //init
     init {
         println("access key:  $accessKey")
